@@ -1,0 +1,163 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    background: linear-gradient(135deg, #f0f0f0 0%, #1e3c72 100%);
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: fixed;       
+    top: 0;            
+    left: 0;              
+    width: 100%;          
+    background-color: #2f2f2f;
+    color: #fff;         
+    text-align: center;    
+    padding: 10px 0;      
+    font-size: 14px;       
+    z-index: 10;           
+    border-bottom: 5px solid #007bff; 
+}
+
+header h1 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+
+#form {
+    text-align: center;
+    align-items: center;
+    width: 250px;
+    padding: 30px;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+#form:hover {
+    transform: scale(1.02);
+}
+
+.form-label {
+    font-weight: bold;
+    width: 100px;
+}
+
+.form-control {
+    margin: 0 auto;
+    display: block;
+    width: 90%;
+    max-width: 300px;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.listas .list-group {
+    max-width: 300px;
+    margin: 0 auto; 
+    text-align: center; 
+    border-radius: 20px; 
+    overflow: hidden; 
+    background-color: #f0f8ff; 
+    border: 1px solid #ccc; 
+}
+
+.listas h4 {
+    font-size: 1.25rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black; 
+    text-align: center; 
+    background-color: #f0f8ff;
+    padding: 10px;  
+}
+
+.list-group-item {
+    text-align: center; 
+    }
+
+
+#footer {
+    position: fixed;       
+    bottom: 0;            
+    left: 0;              
+    width: 100%;          
+    background-color: #2f2f2f;
+    color: #fff;         
+    text-align: center;    
+    padding: 10px 0;      
+    font-size: 14px;       
+    z-index: 10;           
+    border-top: 3px solid #007bff; 
+}
+
+#footer p {
+    margin: 0;             
+}
+
+.custom-footer {
+    border-top: 5px solid #007bff; 
+}
+
+#voltar {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+
+#voltar a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#voltar a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+#voltar a:visited {
+    color: #cccccc;
+}
+
+#cont {
+    display: flex;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+#cont h1,
+#resposta {
+    color: black;
+    text-align: center;
+}
